@@ -3,6 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
+
         List<Integer> nums = new ArrayList<>(List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
         for (int num : nums) {
             if (num % 2 != 0) {
